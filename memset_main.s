@@ -14,8 +14,8 @@ array: .fill 1000, 1, 'f'
         //PRECONDITIONS HERE TO TEST MEMSET
         la  a0, array
         li  a1, 'A'
-        li  a2, 5
-        //call memset
+        li  a2, 500
+        call memset
 
         //CODE TO WATCH THE CHANGES IN CONSOLE
         li  a0, 1
